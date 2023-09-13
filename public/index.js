@@ -394,10 +394,10 @@ function updateBoxes(temperatura, ph, turbidez, oxigenio) {
   let turbidezDiv = document.getElementById("turbidez");
   let oxigenioDiv = document.getElementById("oxigenio");
 
-  temperaturaDiv.innerHTML = temperatura + " C";
-  phDiv.innerHTML = ph + " %";
-  turbidezDiv.innerHTML = turbidez + " hPa";
-  oxigenioDiv.innerHTML = oxigenio + " m";
+  temperaturaDiv.innerHTML = temperatura + "°C";
+  phDiv.innerHTML = ph + " PH";
+  turbidezDiv.innerHTML = turbidez + " UNT";
+  oxigenioDiv.innerHTML = oxigenio + " O2sat";
 }
 
 function updateGauge(temperatura, ph, turbidez, oxigenio) {
